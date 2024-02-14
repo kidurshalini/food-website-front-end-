@@ -1,0 +1,45 @@
+ <html>
+    <head>
+        <title>Food hub feedback</title>
+        <link rel="stylesheet" type="text/css" href="feedback.css">
+    </head>
+<body>
+
+        <div class="account1">
+        
+                <h3>GIVE ME SOME FEEDDBACK ABOUT FOODHUB PAGE</h3>
+              
+            <Form onsubmit="myfunction()">
+        
+            FULL NAME<br>
+            <input type="text" name="fullname"id="fullname" placeholder="Enter the fullname"><br><br>
+            EMAIL<br>
+            <input type="email" name="EMAIL " id="email" placeholder="Email@gmail.com"><br><br>
+            FEEDBACK<br>
+            <textarea name="massage" id="msg" placeholder="Give the feedback"></textarea><br><br>
+
+            <input type="Submit" value="SEND"><input type="reset" value="RESET">
+
+            </Form>
+
+        </div>
+
+        <script>
+            
+            function myfunction(){
+                let name=document.getElementById("fullname").value;
+                let email=document.getElementById("email").value;
+                let msg=document.getElementById("msg").value;
+
+            if(name == "" | email == "" | msg == ""){
+             alert("FILL THE FORM");
+            }else{
+                alert("THANK YOU FOR YOUR FEEDBACK");
+            }
+        }
+        
+
+
+        </script>
+</body>
+</html>

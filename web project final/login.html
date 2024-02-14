@@ -1,0 +1,43 @@
+"()<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="login.css">
+        <title>login into foodhub</title>
+    </head>
+<body>
+    <form onsubmit="return myfunction()">
+
+     <h1>Foodhub Login </h1>
+
+    <input type="text" 
+     name="username"
+     id="username" 
+     placeholder="Enter the username"
+    >
+    <input type="password" 
+     name="password"
+     id="password" 
+     placeholder="Enter the password"
+    >
+    <input type="submit" value="SUBMIT">
+   
+    </form>
+
+    <script>
+        function myfunction(){
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+
+            if (password == "" | username == ""){
+                alert("FILL THE NAME OR PASSWORD");
+            }else{
+                alert ("NOW YOU CAN LOGIN THE FOOD HUB PAGE");
+            }
+
+        
+
+        }
+    </script>
+</body>
+</html>
+

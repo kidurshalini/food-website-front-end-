@@ -1,0 +1,81 @@
+h1{
+ 
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(25, 106, 121);
+    font-family:Time new Roman;
+    margin-top: 100px;
+    position: absolute;
+}
+marquee{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(116, 86, 32);
+    font-family:Arial, Helvetica, "sans-serif",Times New Roman, Times, serif;
+    margin-top: 10PX;
+}
+
+
+p{
+    font-size: 20px;
+    color:rgb(184, 186, 211);
+    font-family:Time new Roman;
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 200px;
+}
+
+img.veg{
+    width:400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 100px;
+    border: 2px solid black;
+
+}
+
+div.veg1{
+    display: flex;
+    justify-content: space-between;
+}
+div.veg3{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.veg2{
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid rgb(226, 218, 218);
+  
+}
+.fig1{
+    margin-top: 150px;
+    font-size: 22;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(80, 139, 179);
+}
+img.veg4{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(238, 230, 230);
+    margin-top: 50px;
+}
+.fig2{
+    margin-top: 200px;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(80, 139, 179);
+}
+
+
+h2{
+    margin-top: 500px;
+    font-size: 40px;
+    color:rgba(60, 155, 147, 0.863);
+    
+}

@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(192, 159, 159);
+
+}
+
+.selection{
+    margin:0;
+    padding:0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slides{
+    width:500%;
+    height:500px;
+    display:flex;
+}
+
+.slides input{
+    display:none;
+}
+
+
+

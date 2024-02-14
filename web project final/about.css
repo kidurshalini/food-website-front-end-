@@ -1,0 +1,36 @@
+img.about{
+    width: 90%;
+    height: 75% ;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+
+p{
+    font-size: 25px;
+    font-family: Times New Roman, Times, serif;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 400px;
+    color:rgb(101, 121, 138);
+    
+}
+
+.about1{
+    position: absolute;
+    margin-left: 1000px;
+   
+}
+h1{
+ 
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(71, 71, 71);
+    font-family:Time new Roman;
+    margin-top: 50px;
+}
+
+
+

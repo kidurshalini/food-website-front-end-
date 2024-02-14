@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+
+div.account1{
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+    padding-left:20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+h3{
+    font-style:arial,monospace,Time New Roman;
+    color:rgb(81, 125, 182);
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+
+input[type="text"],[type="email"]{
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgb(245, 245, 245);
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+    
+
+
+textarea{
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgb(247, 247, 247);
+    font-size:15px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+input[type="submit"],[type="reset"]{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(13, 59, 13);
+    border: 1px solid black;
+    border-radius: 15px;
+    color:rgb(235, 224, 224);
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(11, 121, 11);
+}
+
+input[type="reset"]:hover{
+    background-color: rgb(209, 12, 12);
+}
+input[type="reset"]{
+    background-color: rgb(156, 6, 6);
+}
+
